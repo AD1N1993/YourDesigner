@@ -12,7 +12,7 @@ function App() {
     return (
         <div className={s.App}>
             <Switch>
-                <Route exact={true} path={"/"} render={() => <Portfolio/>}/>
+                <Route exact={true} path={["/YourDesigner","/"]} render={() => <Portfolio/>}/>
                 <Route path={"/coffee"} render={() => <Coffee/>}/>
                 <Route path={"/garlic"} render={() => <Garlic/>}/>
                 <Route path={"/screens"} render={() => <Screens/>}/>
