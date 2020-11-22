@@ -1,0 +1,46 @@
+.footer{
+  background-color: #1f1f20;
+  text-align: center;
+  color: #ffffff;
+  font: 700 22px/1.2 'Josefin Sans', sans-serif;
+  padding: 50px 0;
+}
+
+.footerTitle{
+  margin: 0;
+  cursor: pointer;
+  &:hover{
+    color: chocolate;
+  }
+}
+.socialList{
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socialListItem{
+  margin: 0 20px;
+}
+.socialListLink{
+  text-decoration: none;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  &:hover{
+    color: #4e93e6;
+  }
+}
+.copyRight{
+  font-size: 10px;
+  color: #a0a0a0;
+}
+
+@media (max-width: 568px) {
+  .socialList{
+    flex-direction: column;
+  }
+  .socialListItem{
+    margin: 0 10px;
+  }
+}

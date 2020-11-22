@@ -1,0 +1,11 @@
+.back {
+  position: fixed;
+  left: 50%;
+  width: 50px;
+  text-align: center;
+  border-radius:10px;
+  margin: 5px;
+  background-color: white;
+  z-index: 999;
+  cursor: pointer;
+}
